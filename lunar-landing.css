@@ -1,0 +1,75 @@
+#viewport { 
+    background-color: #000;
+}
+
+#thursterLeft { 
+    background-color:yellow;
+}
+#thursterRight { 
+    background-color:yellow;
+}
+#rocket { 
+    background-color:yellow;
+}
+
+#explosion { 
+    background-color: none; 
+    border: 3px dashed red;        
+     -moz-border-radius: 122px; /* FF1+ */
+    -webkit-border-radius: 122px; /* Saf3+, Chrome */
+            border-radius: 122px; /* Opera 10.5, IE 9 */
+}
+
+#ship div { 
+    position:absolute;
+}
+
+#shipCabin {
+    background-color: #fff;
+    left: 5px;
+    width: 16px;
+    height: 14px;
+    z-index: 10;
+}
+
+
+#shipBody {
+    background-color: #666;
+    left: 7px;
+    top: 12px;
+    width: 12px;
+    height: 18px;
+    z-index: 20;
+}
+
+#shipWings {
+    background-color: #444;
+    top: 20px;
+    width: 26px;
+    height: 11px;
+    z-index: 30;
+}
+
+.surface {
+	background-color: #339999;
+}
+
+.impracticable {
+	background-color: #448899;
+	border-top: dotted 9.5px black; //#448899;
+}
+
+#result {
+	background-color: #444;
+	background-color: rgba(50,50,50,0.8);
+	     -moz-border-radius: 22px; /* FF1+ */
+    -webkit-border-radius: 22px; /* Saf3+, Chrome */
+            border-radius: 22px; /* Opera 10.5, IE 9 */
+    border: solid 5px white;
+}
+
+#result_status, #result_rejugar {
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+}
